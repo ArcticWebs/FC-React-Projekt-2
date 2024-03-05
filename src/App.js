@@ -1,7 +1,13 @@
-import Title from "./components/Title";
+import Counter from "./components/Counter/Counter";
+import Title from "./components/Title/Title";
 
 function App() {
-  return <Title />;
+  return (
+    <>
+      <Title />
+      <Counter />
+    </>
+  );
 }
 
 export default App;

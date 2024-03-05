@@ -1,0 +1,31 @@
+.currencyCounter {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.currencyCounterBox {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  box-shadow: 2px 2px 5.5px 0px #00000040;
+}
+
+.inputBox {
+  display: flex;
+
+  gap: 10px;
+}
+
+.plnSum {
+  max-width: 345px;
+  font-weight: 700;
+
+  padding: 10px 0;
+}
+
+.plnSumNumber {
+  font-weight: 900;
+}
