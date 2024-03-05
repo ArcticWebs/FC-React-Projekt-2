@@ -34,7 +34,9 @@ const Counter = () => {
         </form>
         <div className={styles.plnSum}>
           To:
-          <span className={styles.plnSumNumber}>{plnAmount} PLN</span>
+          <span className={styles.plnSumNumber}>
+            {plnAmount ? plnAmount.toFixed(2) : "0,00"} PLN
+          </span>
         </div>
       </div>
     </div>
