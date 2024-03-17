@@ -1,5 +1,5 @@
 import styles from "./Select.module.scss";
-import { currencies } from "../../../data/currencies";
+import { currencies } from "../../../../data/currencies";
 import { nanoid } from "nanoid";
 
 const Select = ({ name }) => {

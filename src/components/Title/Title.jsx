@@ -5,7 +5,7 @@ const Title = () => {
   return (
     <div className="container">
       <div className={styles.titleBox}>
-        <img src={calc} alt="" className={styles.icon} />
+        <img src={calc} alt="przelicznik walut" className={styles.icon} />
         <div className={styles.mainTitle}>Przelicznik walut</div>
       </div>
     </div>
